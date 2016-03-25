@@ -97,12 +97,10 @@
 		52C4F3B81CA59AB900DF5058 /* MusicVideo */ = {
 			isa = PBXGroup;
 			children = (
-				52C4F3B91CA59AB900DF5058 /* AppDelegate.swift */,
-				52C4F3BB1CA59AB900DF5058 /* ViewController.swift */,
-				52C4F3BD1CA59AB900DF5058 /* Main.storyboard */,
-				52C4F3C01CA59AB900DF5058 /* Assets.xcassets */,
-				52C4F3C21CA59AB900DF5058 /* LaunchScreen.storyboard */,
-				52C4F3C51CA59AB900DF5058 /* Info.plist */,
+				52C4F3EA1CA5A79700DF5058 /* Supporting Files */,
+				52C4F3E71CA5A72000DF5058 /* Model */,
+				52C4F3E81CA5A74700DF5058 /* Controller */,
+				52C4F3E91CA5A76B00DF5058 /* View */,
 			);
 			path = MusicVideo;
 			sourceTree = "<group>";
@@ -123,6 +121,40 @@
 				52C4F3DB1CA59AB900DF5058 /* Info.plist */,
 			);
 			path = MusicVideoUITests;
+			sourceTree = "<group>";
+		};
+		52C4F3E71CA5A72000DF5058 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52C4F3E81CA5A74700DF5058 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52C4F3BB1CA59AB900DF5058 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		52C4F3E91CA5A76B00DF5058 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				52C4F3BD1CA59AB900DF5058 /* Main.storyboard */,
+				52C4F3C21CA59AB900DF5058 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		52C4F3EA1CA5A79700DF5058 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52C4F3C51CA59AB900DF5058 /* Info.plist */,
+				52C4F3B91CA59AB900DF5058 /* AppDelegate.swift */,
+				52C4F3C01CA59AB900DF5058 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -487,6 +519,7 @@
 				52C4F3E01CA59AB900DF5058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52C4F3E11CA59AB900DF5058 /* Build configuration list for PBXNativeTarget "MusicVideoTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +528,7 @@
 				52C4F3E31CA59AB900DF5058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52C4F3E41CA59AB900DF5058 /* Build configuration list for PBXNativeTarget "MusicVideoUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +537,7 @@
 				52C4F3E61CA59AB900DF5058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
